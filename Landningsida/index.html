@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Basic Website</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        display: grid;
+        grid-template-rows: auto 1fr 1fr 1fr auto;
+        min-height: 100vh;
+      }
+
+      .navbar {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      .hero {
+        background-image: url("https://images.pexels.com/photos/13534001/pexels-photo-13534001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-size: cover;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .hero h2 {
+        font-size: 24px;
+      }
+
+      .cta-button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 18px;
+        text-decoration: none;
+        margin-top: 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .grid-row {
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        text-align: center;
+      }
+
+      .footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">Login Signup</div>
+      <div class="hero">
+        <h1><em>The Great Nature hub</em></h1>
+        <h2>“A walk in nature walks the soul back home.”</h2>
+        <a href="#" class="cta-button">Click here to join</a>
+      </div>
+      <div class="grid-row">
+        <!-- Content for the first grid row -->
+      </div>
+      <div class="grid-row">
+        <!-- Content for the second grid row -->
+      </div>
+      <div class="grid-row">
+        <!-- Content for the third grid row -->
+      </div>
+      <div class="footer">
+        <p>
+          blablabla<br />hello there<br />dust2<br />frontend<br />contact us<br />login
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
